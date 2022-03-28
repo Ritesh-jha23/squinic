@@ -29,11 +29,7 @@ jobs:
         uses: Azure/cli@v1
         with:
           inLinescript: 
-<<<<<<< HEAD
-              az deployment sub create --template-file .\Arm-templates\ResourceGroup.json
-=======
-            az deployment sub create --location "UK South" --template-file .\Arm-templates\ResourceGroup.json
->>>>>>> 86277fb11a88f494e3e9895fc91f4e90834316de
+            az deployment sub create --location "UK South" --template-file ./Arm-templates/ResourceGroup.json
 
 
  
